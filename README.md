@@ -13,7 +13,7 @@ AgentOps is an intelligent A/B testing and session analytics engine that automat
 - **Agentic AI Optimization**: Leverages local LLMs via Ollama (e.g., LLaMA3) to suggest UX improvements.
 -  **A/B Variant Routing**: Dynamically serves different HTML variants for experimentation.
 -  **Session Dashboard**: (Coming Soon) View and explore user sessions with interactive UI and analytics.
-
+-  **Pushing changes to github**
 ---
 
 ##  Tech Stack
