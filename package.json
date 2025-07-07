@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@types/cors": "^2.8.19"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.48",
+    "@langchain/ollama": "^0.2.3",
+    "langchain": "^0.3.29"
+  }
+}
