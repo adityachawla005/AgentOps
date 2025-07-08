@@ -28,12 +28,12 @@ model Variant {
 }
 
 model PageElement {
-  id         Int      @id @default(autoincrement())
-  tag        String
-  elementId  String?
-  classes    String
-  text       String
-  outerHTML  String
-  pagePath   String
-  createdAt  DateTime @default(now())
+  id        String   @id @default(cuid())  // Primary key
+  domId     String   // ✅ New field for DOM id
+  tag       String
+  classes   String
+  text      String
+  outerHTML String
+  pagePath  String
+  createdAt DateTime @default(now())
 }
