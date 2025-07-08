@@ -22,5 +22,18 @@ model Variant {
   version     Int
   impressions Int      @default(0)
   clicks      Int      @default(0)
+  html        String   @default("") 
+  css         String   @default("") 
   createdAt   DateTime @default(now())
+}
+
+model PageElement {
+  id         Int      @id @default(autoincrement())
+  tag        String
+  elementId  String?
+  classes    String
+  text       String
+  outerHTML  String
+  pagePath   String
+  createdAt  DateTime @default(now())
 }

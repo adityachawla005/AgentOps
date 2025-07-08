@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Variant" ADD COLUMN     "css" TEXT NOT NULL DEFAULT '',
+ADD COLUMN     "html" TEXT NOT NULL DEFAULT '';
