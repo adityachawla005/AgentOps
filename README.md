@@ -28,4 +28,4 @@ AgentOps is an intelligent A/B testing and session analytics engine that automat
 | Dev Tools   | ts-node-dev, dotenv, curl            |
 
 ```
-![](https://github.com/adityachawla005/AgentOps/blob/main/sample.png)
+![](https://github.com/adityachawla005/AgentOps/blob/master/sample.png)
